@@ -38,6 +38,8 @@
 - 国土地理院(GSI)提供の地図タイル
 - OpenRailwayMap提供の鉄道路線タイル
 
+また、有料機能の購入にはGoogle Playの課金システム(Google Play Billing Library)を利用します。決済情報(クレジットカード番号等)は本アプリを経由せずGoogle Playが直接処理し、本アプリ・開発者側で取得・保存することはありません。詳細はGoogleのプライバシーポリシーをご確認ください。
+
 ## 5. 情報の保存期間・削除
 
 端末内に保存された情報(お気に入り・設定・PINハッシュ等)は、利用者が本アプリ内の機能で削除するか、本アプリをアンインストールすることでいつでも消去できます。本アプリの開発者側でこれらの情報を保持することはありません。
@@ -55,3 +57,65 @@
 本ポリシーに関するお問い合わせは、以下までご連絡ください。
 
 [お問い合わせ先メールアドレスを記載予定]
+
+---
+
+# Privacy Policy (English)
+
+**App name**: [To be filled in once the store listing name is finalized — currently working-titled "ばしょチェンジ"]
+**Last updated**: August 13, 2026
+
+This policy explains how this app handles personal information and user data. By using this app, you agree to the contents of this policy.
+
+## 1. Information this app collects
+
+This app does not send your personal information or location data to any external server. All information this app handles is stored only on your device.
+
+- **Location (real GPS position and any simulated position you set)**: processed on-device only to provide the app's features, and never transmitted externally.
+- **Favorite spots and routes**: stored only in an on-device database. Never sent externally or backed up.
+- **PIN code (if the lock feature is enabled)**: the raw PIN is never stored; only an irreversible hashed form is stored on-device.
+
+This app never asks you to enter directly identifying information such as your name, email address, or phone number.
+
+## 2. Device permissions and their purpose
+
+| Permission | Purpose |
+|---|---|
+| Location (approximate / precise) | Showing your current location; providing the simulated-location feature |
+| Notifications | Arrival/departure notifications while a route is running; status notifications |
+| Background location use / foreground service | Keeping the simulated location active even after you close the app |
+| Internet access, network state | Fetching map data (GSI base map tiles, railway overlay) needed to render the map |
+| Battery optimization exemption | Preventing background simulated-location delivery from being interrupted |
+
+Internet access is used only to fetch map tile data; this traffic never includes any information that could identify you personally.
+
+## 3. Third-party sharing
+
+This app does not provide, share, or sell your information to any third party, including advertising or analytics providers. No advertising SDK or analytics SDK is embedded in this app.
+
+## 4. External services used
+
+To render the map, this app communicates with the following external data sources. This traffic is limited to fetching map tile images/data and does not include any personally identifiable information.
+
+- Map tiles provided by the Geospatial Information Authority of Japan (GSI)
+- Railway overlay tiles provided by OpenRailwayMap
+
+Purchases of paid features are processed through Google Play's billing system (Google Play Billing Library). Payment details (such as credit card numbers) are handled directly by Google Play and never pass through or are stored by this app or its developer. See Google's own privacy policy for details.
+
+## 5. Data retention and deletion
+
+Information stored on your device (favorites, settings, PIN hash, etc.) can be deleted at any time either through this app's own features or by uninstalling the app. The developer never retains this information.
+
+## 6. Children's privacy
+
+This app is not directed at children, and does not knowingly collect information from children.
+
+## 7. Changes to this policy
+
+This policy may be updated to reflect legal changes or new app features (for example, future paid features or the addition of crash reporting). Material changes will be reflected in the "Last updated" date above.
+
+## 8. Contact
+
+For questions about this policy, please contact:
+
+[Contact email address to be added]
