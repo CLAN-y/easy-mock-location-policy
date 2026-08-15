@@ -1,7 +1,7 @@
 # プライバシーポリシー
 
-**アプリ名**: [ストア掲載名を確定後に記載予定・現状「ばしょチェンジ」は仮称]
-**最終更新日**: 2026年8月13日
+**アプリ名**: どこでもガード
+**最終更新日**: 2026年8月15日
 
 本ポリシーは、本アプリにおける個人情報・利用者情報の取り扱いについて説明するものです。本アプリをご利用いただくことで、本ポリシーの内容に同意いただいたものとします。
 
@@ -56,14 +56,14 @@
 
 本ポリシーに関するお問い合わせは、以下までご連絡ください。
 
-[お問い合わせ先メールアドレスを記載予定]
+dokodemoguard.support@gmail.com
 
 ---
 
 # Privacy Policy (English)
 
-**App name**: [To be filled in once the store listing name is finalized — currently working-titled "ばしょチェンジ"]
-**Last updated**: August 13, 2026
+**App name**: どこでもガード (DokodemoGuard)
+**Last updated**: August 15, 2026
 
 This policy explains how this app handles personal information and user data. By using this app, you agree to the contents of this policy.
 
@@ -118,4 +118,4 @@ This policy may be updated to reflect legal changes or new app features (for exa
 
 For questions about this policy, please contact:
 
-[Contact email address to be added]
+dokodemoguard.support@gmail.com
