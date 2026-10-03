@@ -1,4 +1,4 @@
-# プライバシーポリシー
+<img width="1920" height="3226" alt="image" src="https://github.com/user-attachments/assets/3ddda568-c33a-4262-807b-b2a08d146629" /><img width="1920" height="3226" alt="image" src="https://github.com/user-attachments/assets/43d34800-d960-450e-b5f3-db554dda840d" /># プライバシーポリシー
 
 **アプリ名**: どこでもガード
 **最終更新日**: 2026年10月3日
@@ -75,7 +75,7 @@ dokodemoguard.support@gmail.com
 
 # Privacy Policy (English)
 
-**App name**: どこでもガード (DokodemoGuard)
+**App name**: Anyware Guard (どこでもガード)
 **Last updated**: October 3, 2026
 
 This policy explains how this app handles personal information and user data. By using this app, you agree to the contents of this policy.
