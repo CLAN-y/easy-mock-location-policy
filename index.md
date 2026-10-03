@@ -139,3 +139,9 @@ This app is not directed at children, and does not knowingly collect information
 ## 7. Changes to this policy
 
 This policy may be updated to reflect legal changes or new app features (for example, future paid features). Material changes will be reflected in the "Last updated" date above.
+
+## 8. Contact
+
+For questions about this policy, please contact:
+
+dokodemoguard.support@gmail.com
