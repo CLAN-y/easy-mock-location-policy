@@ -75,7 +75,7 @@ dokodemoguard.support@gmail.com
 
 # Privacy Policy (English)
 
-**App name**: Anyware Guard (どこでもガード)
+**App name**: Anywhere Guard (どこでもガード)
 **Last updated**: October 3, 2026
 
 This policy explains how this app handles personal information and user data. By using this app, you agree to the contents of this policy.
