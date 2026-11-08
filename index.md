@@ -1,7 +1,7 @@
 # プライバシーポリシー
 
 **アプリ名**: どこでもガード
-**最終更新日**: 2026年10月3日
+**最終更新日**: 2026年11月8日
 
 本ポリシーは、本アプリにおける個人情報・利用者情報の取り扱いについて説明するものです。本アプリをご利用いただくことで、本ポリシーの内容に同意いただいたものとします。
 
@@ -12,8 +12,8 @@
 - **位置情報(実際のGPS位置・設定した仮の位置)**: 本アプリの機能を提供するために端末内で処理され、端末内にのみ保存されます。実際のGPS位置が外部に送信されることはありません。ただし、有料の「自動ルート生成」機能を利用した場合に限り、利用者が経路上の地点として指定した座標が経路計算のために外部サービスへ送信されます(下記「4. 外部サービスの利用」参照)。
 - **お気に入りのスポット・ルート情報、設定**: 端末内に保存されます。Android標準のバックアップ機能が有効な場合は、機種変更や再インストール時に復元できるよう、利用者ご自身のGoogleアカウントのバックアップ(Googleが提供するAndroid標準機能)に含まれます(PINコードのハッシュ値、無料お試しの利用状況、自動ルートのクレジット残高を含みます)。開発者のサーバーに送信されることはなく、開発者がその内容を閲覧することもできません。
 - **地図の検索履歴**: 「検索」機能で見つけた場所と入力した検索語の履歴(最大10件)は、端末内にのみ保存されます。上記のバックアップの対象外としており、外部に送信されることはありません。
-- **PINコード(ロック機能を有効にした場合)**: 元のPINコードそのものは保存せず、復元不可能な形式(ハッシュ化)に変換した上で端末内にのみ保存されます。
-- **クラッシュ診断データ(アプリが異常終了した場合)**: Firebase Crashlyticsを通じて、エラー発生箇所(スタックトレース)・端末の機種名/OSバージョン・アプリのバージョンといった診断情報が開発者に送信されます。氏名・メールアドレス・位置情報など利用者を特定できる情報は含まれません。詳細は「4. 外部サービスの利用」をご覧ください。
+- **PINコード(ロック機能を有効にした場合)**: 元のPINコードそのものは保存せず、復元不可能な形式(ハッシュ化)に変換した上で端末内に保存されます(上記のバックアップに含まれます)。
+- **クラッシュ診断データ・動作状況**: Firebase Crashlyticsを通じて、アプリが異常終了した場合のエラー発生箇所(スタックトレース)と、アプリの起動・動作状況(異常終了せずに使えた割合の集計に使うもの)に関する診断情報が、端末の機種名/OSバージョン・アプリのバージョンとともに開発者に送信されます。氏名・メールアドレス・位置情報など利用者を特定できる情報は含まれません。詳細は「4. 外部サービスの利用」をご覧ください。
 
 本アプリは、氏名・メールアドレス・電話番号など、利用者を直接特定できる情報の入力を求めることはありません。
 
@@ -51,7 +51,7 @@
 
 有料機能の購入にはGoogle Playの課金システム(Google Play Billing Library)を利用します。決済情報(クレジットカード番号等)は本アプリを経由せずGoogle Playが直接処理し、本アプリ・開発者側で取得・保存することはありません。詳細はGoogleのプライバシーポリシーをご確認ください。
 
-さらに、アプリが予期せず終了した場合の原因調査・品質改善を目的として、Firebase Crashlytics(Google提供)を利用しています。アプリの異常終了時に、エラー発生箇所(スタックトレース)・端末の機種名/OSバージョン・アプリのバージョン・アプリ固有のインストールID(利用者個人やGoogleアカウントとは紐付かない匿名の識別子)が自動的にGoogleのサーバーに送信されます。位置情報や氏名・メールアドレスなど利用者を特定できる情報が含まれることはありません。詳細はFirebaseのプライバシーとセキュリティに関するポリシーをご確認ください。
+さらに、アプリが予期せず終了した場合の原因調査・品質改善を目的として、Firebase Crashlytics(Google提供)を利用しています。アプリの異常終了時のエラー発生箇所(スタックトレース)、およびアプリの起動・動作状況(異常終了せずに使えた割合の集計用)が、端末の機種名/OSバージョン・アプリのバージョン・アプリ固有のインストールID(利用者個人やGoogleアカウントとは紐付かない匿名の識別子)とともに自動的にGoogleのサーバーに送信されます。位置情報や氏名・メールアドレスなど利用者を特定できる情報が含まれることはありません。詳細はFirebaseのプライバシーとセキュリティに関するポリシーをご確認ください。
 
 ## 5. 情報の保存期間・削除
 
@@ -76,7 +76,7 @@ dokodemoguard.support@gmail.com
 # Privacy Policy (English)
 
 **App name**: Anywhere Guard (どこでもガード)
-**Last updated**: October 3, 2026
+**Last updated**: November 8, 2026
 
 This policy explains how this app handles personal information and user data. By using this app, you agree to the contents of this policy.
 
@@ -87,8 +87,8 @@ As a rule, this app does not send your personal information or location data to 
 - **Location (real GPS position and any simulated position you set)**: processed on-device to provide the app's features and stored only on your device. Your real GPS position is never transmitted externally. However, when you use the paid "automatic route generation" feature, the coordinates of the points you specify along the route are sent to external services to calculate the route (see "4. External services used").
 - **Favorite spots and routes, settings**: stored on your device. If Android's standard backup is turned on, they are included in your own Google account backup (a standard Android feature provided by Google) so they can be restored after a device change or reinstall — this includes the PIN hash, free-trial usage, and auto-route credit balance. They are never sent to the developer's servers, and the developer cannot view them.
 - **Map search history**: the places found with the "Search" feature and the words you typed (up to 10 entries) are stored only on your device. They are excluded from the backup above and are never sent externally.
-- **PIN code (if the lock feature is enabled)**: the raw PIN is never stored; only an irreversible hashed form is stored on-device.
-- **Crash diagnostic data (if the app crashes)**: via Firebase Crashlytics, diagnostic information — the stack trace where the error occurred, device model/OS version, and app version — is sent to the developer. This never includes identifying information such as your name, email address, or location. See "4. External services used" for details.
+- **PIN code (if the lock feature is enabled)**: the raw PIN is never stored; only an irreversible hashed form is stored on your device (it is included in the backup described above).
+- **Crash diagnostics and app stability data**: via Firebase Crashlytics, the stack trace when the app crashes and diagnostic information about app launches and usage (used to measure how often the app runs without crashing) are sent to the developer, together with the device model/OS version and app version. This never includes identifying information such as your name, email address, or location. See "4. External services used" for details.
 
 This app never asks you to enter directly identifying information such as your name, email address, or phone number.
 
@@ -126,7 +126,7 @@ When you use the map "Search" feature, the search words you type (such as an add
 
 Purchases of paid features are processed through Google Play's billing system (Google Play Billing Library). Payment details (such as credit card numbers) are handled directly by Google Play and never pass through or are stored by this app or its developer. See Google's own privacy policy for details.
 
-This app also uses Firebase Crashlytics (provided by Google) to investigate the cause of unexpected crashes and improve app quality. When the app crashes, diagnostic information — the stack trace where the error occurred, device model/OS version, app version, and an app-specific install ID (an anonymous identifier not tied to you personally or to any Google account) — is automatically sent to Google's servers. This never includes identifying information such as your location, name, or email address. See Firebase's privacy and security policies for details.
+This app also uses Firebase Crashlytics (provided by Google) to investigate the cause of unexpected crashes and improve app quality. The stack trace when the app crashes, and information about app launches and usage (to measure how often the app runs without crashing), are automatically sent to Google's servers together with the device model/OS version, app version, and an app-specific install ID (an anonymous identifier not tied to you personally or to any Google account). This never includes identifying information such as your location, name, or email address. See Firebase's privacy and security policies for details.
 
 ## 5. Data retention and deletion
 
