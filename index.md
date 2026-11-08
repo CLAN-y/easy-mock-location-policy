@@ -69,7 +69,7 @@
 
 本ポリシーに関するお問い合わせは、以下までご連絡ください。
 
-dokodemoguard.support@gmail.com
+info@studioclanapp.com
 
 ---
 
@@ -144,4 +144,4 @@ This policy may be updated to reflect legal changes or new app features (for exa
 
 For questions about this policy, please contact:
 
-dokodemoguard.support@gmail.com
+info@studioclanapp.com
